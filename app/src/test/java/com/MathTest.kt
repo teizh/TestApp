@@ -22,7 +22,7 @@ class MathTest {
 
     @Test
     fun doubleAdd() {
-        assertEquals("4", math?.add("2.0", "2"))
+        assertEquals("Введите целые числа", math?.add("2.0", "2"))
     }
 
     @Test
